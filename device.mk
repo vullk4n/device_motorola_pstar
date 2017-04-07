@@ -18,7 +18,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     FrameworksResPstar \
     SystemUIResPstar \
-    SettingsProviderResPstar
+    SettingsProviderResPstar \
+    WifiResPstar
 
 # Audio
 PRODUCT_COPY_FILES += \
