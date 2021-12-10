@@ -204,7 +204,6 @@ vendor/etc/sensors/config/ak991x_0.json
 vendor/etc/sensors/config/lsm6dso_0.json
 vendor/etc/sensors/config/lsm6dso_0_16g.json
 vendor/etc/sensors/config/stk3a5x_0.json
-vendor/etc/sensors/proto/sns_formatter_notify.proto
 
 # Thermal
 vendor/etc/thermal-engine-pstar.conf
