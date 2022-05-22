@@ -190,5 +190,11 @@ vendor/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci-st.conf
 
+# Hotword
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # Thermal
 vendor/etc/thermal-engine-pstar.conf
