@@ -18,6 +18,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     FrameworksResPstar \
     SystemUIResPstar \
+    SettingsResPstar \
     SettingsProviderResPstar \
     WifiResPstar
 
