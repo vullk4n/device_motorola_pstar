@@ -15,6 +15,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     FrameworksResPstar \
     SystemUIResPstar \
+    SettingsResPstar \
     SettingsProviderResPstar
 
 # Audio
