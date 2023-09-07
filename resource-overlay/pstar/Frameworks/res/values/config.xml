@@ -106,8 +106,12 @@
         <item>-1</item>
     </integer-array>
 
-    <!-- default refresh rate in the zone defined by birghtness and ambient thresholds -->
-    <integer name="config_defaultRefreshRateInZone">120</integer>
+	<!-- Refresh rate configs -->
+    	<integer name="config_defaultFixedOnPeakRefreshRate">0</integer>
+    	<integer name="config_defaultMinRefreshRate">60</integer>
+    	<integer name="config_defaultPeakRefreshRate">144</integer>
+    	<integer name="config_defaultRefreshRate">0</integer>
+    	<integer name="config_defaultRefreshRateInZone">120</integer>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
