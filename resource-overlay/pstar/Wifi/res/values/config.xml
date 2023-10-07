@@ -20,5 +20,5 @@
     <!-- Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">motorola edge 20 pro</string>
     <!-- Wifi driver supports 6GHz band for softap -->
-    <bool translatable="false" name="config_wifiSoftap6ghzSupported">false</bool>
+    <bool translatable="false" name="config_wifiSoftap6ghzSupported">true</bool>
 </resources>
