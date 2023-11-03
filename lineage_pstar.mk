@@ -13,6 +13,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from pstar device
 $(call inherit-product, device/motorola/pstar/device.mk)
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_pstar
