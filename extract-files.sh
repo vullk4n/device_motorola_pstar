@@ -11,6 +11,9 @@ function blob_fixup() {
         vendor/lib/libmot_chi_desktop_helper.so | vendor/lib64/libmot_chi_desktop_helper.so)
             grep -q "libgui_shim_vendor.so" "${2}" || "${PATCHELF}" --add-needed "libgui_shim_vendor.so" "${2}"
             ;;
+        *)
+            blob_fixup_common "$@"
+            ;;
     esac
 }
 
@@ -25,5 +28,6 @@ set -e
 export DEVICE=pstar
 export DEVICE_COMMON=sm8250-common
 export VENDOR=motorola
+export VENDOR_COMMON=${VENDOR}
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
