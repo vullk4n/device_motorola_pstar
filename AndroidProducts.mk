@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pstar.mk
+    $(LOCAL_DIR)/derp_pstar.mk
