@@ -1,0 +1,32 @@
+[
+  {
+    "repository":"crdroidandroid/android_device_motorola_sm8250-common",
+    "target_path":"device/motorola/sm8250-common",
+    "branch":"14.0"
+  },
+  {
+    "repository":"crdroidandroid/android_kernel_motorola_sm8250",
+    "target_path":"kernel/motorola/sm8250",
+    "branch":"14.0"
+  },
+  {
+    "repository":"crdroidandroid/proprietary_vendor_motorola_pstar",
+    "target_path":"vendor/motorola/pstar",
+    "branch":"14.0"
+  },
+  {
+    "repository":"crdroidandroid/proprietary_vendor_motorola_sm8250-common",
+    "target_path":"vendor/motorola/sm8250-common",
+    "branch":"14.0"
+  },
+  {
+    "repository":"crdroidandroid/hardware_motorola",
+    "target_path":"hardware/motorola",
+    "branch":"14.0"
+  },
+ {
+    "repository":"LineageOS/android_system_qcom",
+    "target_path":"system/qcom",
+    "branch":"lineage-21"
+  }
+]
