@@ -13,7 +13,6 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit from pstar device
 $(call inherit-product, device/motorola/pstar/device.mk)
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 DERP_BUILDTYPE := Official
 TARGET_USES_MINE_GAPPS := true
