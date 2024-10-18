@@ -14,8 +14,11 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 # Inherit from pstar device
 $(call inherit-product, device/motorola/pstar/device.mk)
 
+DERP_VERSION_APPEND_TIME_OF_DAY=true
 DERP_BUILDTYPE := Official
-TARGET_USES_MINE_GAPPS := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_USES_PICO_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_pstar
