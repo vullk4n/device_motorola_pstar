@@ -48,5 +48,9 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2-service.st \
     nfc_nci.st21nfc.default
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/pstar/pstar-vendor.mk)
