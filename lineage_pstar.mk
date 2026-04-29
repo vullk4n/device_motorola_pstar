@@ -12,6 +12,9 @@ PRODUCT_NAME := lineage_pstar
 PRODUCT_DEVICE := pstar
 PRODUCT_MODEL := motorola edge 20 pro
 
+DERPFEST_BUILD_TYPE := Official
+DERPFEST_BUILD_VARIANT := Stable
+
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="pstar_retail-user 13 T1RAS33.55-15-16-5 d9def9-6b8134 release-keys" \
